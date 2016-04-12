@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D06F6F571CB6BF82000A3BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F6F561CB6BF82000A3BF6 /* main.m */; };
+		D06F6F5D1CB782F2000A3BF6 /* Gril.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F6F5C1CB782F2000A3BF6 /* Gril.m */; };
+		D0C2461C1CB8EF9F004C281A /* BigBoby.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C2461B1CB8EF9F004C281A /* BigBoby.m */; };
+		D0C2461F1CB932AC004C281A /* Gril+Hiee.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C2461E1CB932AC004C281A /* Gril+Hiee.m */; };
+		D0C930C01CBBC15A00BBD806 /* Boby.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C930BF1CBBC15A00BBD806 /* Boby.m */; };
+		D0C930C31CBBD23300BBD806 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C930C21CBBD23300BBD806 /* Cat.m */; };
 		D0DB750B1CB651A900B2D32E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DB750A1CB651A900B2D32E /* main.m */; };
 		D0DB750E1CB651A900B2D32E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DB750D1CB651A900B2D32E /* AppDelegate.m */; };
 		D0DB75111CB651A900B2D32E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DB75101CB651A900B2D32E /* ViewController.m */; };
@@ -35,7 +41,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D06F6F521CB6BF82000A3BF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D06F6F541CB6BF82000A3BF6 /* RuntimeLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RuntimeLine; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06F6F561CB6BF82000A3BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D06F6F5B1CB782F2000A3BF6 /* Gril.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gril.h; sourceTree = "<group>"; };
+		D06F6F5C1CB782F2000A3BF6 /* Gril.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gril.m; sourceTree = "<group>"; };
+		D0C2461A1CB8EF9F004C281A /* BigBoby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigBoby.h; sourceTree = "<group>"; };
+		D0C2461B1CB8EF9F004C281A /* BigBoby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigBoby.m; sourceTree = "<group>"; };
+		D0C2461D1CB932AC004C281A /* Gril+Hiee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Gril+Hiee.h"; sourceTree = "<group>"; };
+		D0C2461E1CB932AC004C281A /* Gril+Hiee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Gril+Hiee.m"; sourceTree = "<group>"; };
+		D0C930BE1CBBC15A00BBD806 /* Boby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boby.h; sourceTree = "<group>"; };
+		D0C930BF1CBBC15A00BBD806 /* Boby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boby.m; sourceTree = "<group>"; };
+		D0C930C11CBBD23300BBD806 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		D0C930C21CBBD23300BBD806 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		D0DB75061CB651A900B2D32E /* Runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DB750A1CB651A900B2D32E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0DB750C1CB651A900B2D32E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +86,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D06F6F511CB6BF82000A3BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0DB75031CB651A900B2D32E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,12 +117,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D06F6F551CB6BF82000A3BF6 /* RuntimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				D06F6F561CB6BF82000A3BF6 /* main.m */,
+				D0C930BE1CBBC15A00BBD806 /* Boby.h */,
+				D0C930BF1CBBC15A00BBD806 /* Boby.m */,
+				D0C930C11CBBD23300BBD806 /* Cat.h */,
+				D0C930C21CBBD23300BBD806 /* Cat.m */,
+				D06F6F5B1CB782F2000A3BF6 /* Gril.h */,
+				D06F6F5C1CB782F2000A3BF6 /* Gril.m */,
+				D0C2461D1CB932AC004C281A /* Gril+Hiee.h */,
+				D0C2461E1CB932AC004C281A /* Gril+Hiee.m */,
+				D0C2461A1CB8EF9F004C281A /* BigBoby.h */,
+				D0C2461B1CB8EF9F004C281A /* BigBoby.m */,
+			);
+			path = RuntimeLine;
+			sourceTree = "<group>";
+		};
 		D0DB74FD1CB651A900B2D32E = {
 			isa = PBXGroup;
 			children = (
 				D0DB75081CB651A900B2D32E /* Runtime */,
 				D0DB75251CB651A900B2D32E /* RuntimeTests */,
 				D0DB75301CB651A900B2D32E /* RuntimeUITests */,
+				D06F6F551CB6BF82000A3BF6 /* RuntimeLine */,
 				D0DB75071CB651A900B2D32E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +152,7 @@
 				D0DB75061CB651A900B2D32E /* Runtime.app */,
 				D0DB75221CB651A900B2D32E /* RuntimeTests.xctest */,
 				D0DB752D1CB651A900B2D32E /* RuntimeUITests.xctest */,
+				D06F6F541CB6BF82000A3BF6 /* RuntimeLine */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +203,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D06F6F531CB6BF82000A3BF6 /* RuntimeLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06F6F5A1CB6BF82000A3BF6 /* Build configuration list for PBXNativeTarget "RuntimeLine" */;
+			buildPhases = (
+				D06F6F501CB6BF82000A3BF6 /* Sources */,
+				D06F6F511CB6BF82000A3BF6 /* Frameworks */,
+				D06F6F521CB6BF82000A3BF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuntimeLine;
+			productName = RuntimeLine;
+			productReference = D06F6F541CB6BF82000A3BF6 /* RuntimeLine */;
+			productType = "com.apple.product-type.tool";
+		};
 		D0DB75051CB651A900B2D32E /* Runtime */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DB75361CB651A900B2D32E /* Build configuration list for PBXNativeTarget "Runtime" */;
@@ -208,6 +282,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = yf;
 				TargetAttributes = {
+					D06F6F531CB6BF82000A3BF6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					D0DB75051CB651A900B2D32E = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -237,6 +314,7 @@
 				D0DB75051CB651A900B2D32E /* Runtime */,
 				D0DB75211CB651A900B2D32E /* RuntimeTests */,
 				D0DB752C1CB651A900B2D32E /* RuntimeUITests */,
+				D06F6F531CB6BF82000A3BF6 /* RuntimeLine */,
 			);
 		};
 /* End PBXProject section */
@@ -269,6 +347,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D06F6F501CB6BF82000A3BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C930C31CBBD23300BBD806 /* Cat.m in Sources */,
+				D0C930C01CBBC15A00BBD806 /* Boby.m in Sources */,
+				D06F6F571CB6BF82000A3BF6 /* main.m in Sources */,
+				D0C2461F1CB932AC004C281A /* Gril+Hiee.m in Sources */,
+				D0C2461C1CB8EF9F004C281A /* BigBoby.m in Sources */,
+				D06F6F5D1CB782F2000A3BF6 /* Gril.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0DB75021CB651A900B2D32E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,6 +422,26 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D06F6F581CB6BF82000A3BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D06F6F591CB6BF82000A3BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		D0DB75341CB651A900B2D32E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = Runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.Runtime;
@@ -428,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = Runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.Runtime;
@@ -486,6 +599,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D06F6F5A1CB6BF82000A3BF6 /* Build configuration list for PBXNativeTarget "RuntimeLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06F6F581CB6BF82000A3BF6 /* Debug */,
+				D06F6F591CB6BF82000A3BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D0DB75011CB651A900B2D32E /* Build configuration list for PBXProject "Runtime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -502,6 +624,7 @@
 				D0DB75381CB651A900B2D32E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0DB75391CB651A900B2D32E /* Build configuration list for PBXNativeTarget "RuntimeTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +633,7 @@
 				D0DB753B1CB651A900B2D32E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0DB753C1CB651A900B2D32E /* Build configuration list for PBXNativeTarget "RuntimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +642,7 @@
 				D0DB753E1CB651A900B2D32E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
