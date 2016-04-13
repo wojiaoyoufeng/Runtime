@@ -12,23 +12,37 @@
 #import "BigBoby.h"
 #import "Boby.h"
 #import "Cat.h"
+#import "Car.h"
 
-#if TARGET_IPHONE_SIMULATOR
-#import <objc/runtime.h>
-#else
-#import <objc/runtime.h>
-#import <objc/message.h>
-#endif
+//#if TARGET_IPHONE_SIMULATOR
+//#import <objc/runtime.h>
+//#else
+//#import <objc/runtime.h>
+//#import <objc/message.h>
+//#endif
 
 
 int main(int argc, const char * argv[]) {
-    Boby * minBoby = [[Boby alloc] init];
-    ((void(*)(id, SEL))objc_msgSend)((id)minBoby, @selector(eating));
+    
+    Car * car = [[Car alloc] init];
+    [car eat];
+    //本质： 让对象发送消息
+//    objc_msgSend(car,@selector(eat));
+    ((void(*)(id, SEL))objc_msgSend)((id)car, @selector(eat));
+//    [Car eat];
+    [[Car class] eat];
+    
+    //
     
     return 0;
 }
 
 
+void bobyFei(id self)
+{
+    Boby * minBoby = [[Boby alloc] init];
+    ((void(*)(id, SEL))objc_msgSend)((id)minBoby, @selector(eating));
+}
 void cat(id self)
 {
     Cat * cat = [[Cat alloc] init];

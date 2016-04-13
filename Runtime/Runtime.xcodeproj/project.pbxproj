@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D017204B1CBDFA2B0024CBCA /* RuntimeProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D017204A1CBDFA2B0024CBCA /* RuntimeProtocol.m */; };
 		D06F6F571CB6BF82000A3BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F6F561CB6BF82000A3BF6 /* main.m */; };
 		D06F6F5D1CB782F2000A3BF6 /* Gril.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F6F5C1CB782F2000A3BF6 /* Gril.m */; };
 		D0C2461C1CB8EF9F004C281A /* BigBoby.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C2461B1CB8EF9F004C281A /* BigBoby.m */; };
@@ -22,6 +23,9 @@
 		D0DB751C1CB651A900B2D32E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DB751A1CB651A900B2D32E /* LaunchScreen.storyboard */; };
 		D0DB75271CB651A900B2D32E /* RuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DB75261CB651A900B2D32E /* RuntimeTests.m */; };
 		D0DB75321CB651A900B2D32E /* RuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DB75311CB651A900B2D32E /* RuntimeUITests.m */; };
+		D0F77A731CBCFC6B003272CE /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F77A721CBCFC6B003272CE /* Car.m */; };
+		D0F77A751CBD02E7003272CE /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F77A741CBD02E7003272CE /* 123.png */; };
+		D0F77A7B1CBD05AC003272CE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F77A7A1CBD05AC003272CE /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D01720491CBDFA2B0024CBCA /* RuntimeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeProtocol.h; sourceTree = "<group>"; };
+		D017204A1CBDFA2B0024CBCA /* RuntimeProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeProtocol.m; sourceTree = "<group>"; };
 		D06F6F541CB6BF82000A3BF6 /* RuntimeLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RuntimeLine; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06F6F561CB6BF82000A3BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D06F6F5B1CB782F2000A3BF6 /* Gril.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gril.h; sourceTree = "<group>"; };
@@ -83,6 +89,11 @@
 		D0DB752D1CB651A900B2D32E /* RuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DB75311CB651A900B2D32E /* RuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeUITests.m; sourceTree = "<group>"; };
 		D0DB75331CB651A900B2D32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F77A711CBCFC6B003272CE /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		D0F77A721CBCFC6B003272CE /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		D0F77A741CBD02E7003272CE /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		D0F77A791CBD05AC003272CE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D0F77A7A1CBD05AC003272CE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				D06F6F561CB6BF82000A3BF6 /* main.m */,
+				D0F77A711CBCFC6B003272CE /* Car.h */,
+				D0F77A721CBCFC6B003272CE /* Car.m */,
 				D0C930BE1CBBC15A00BBD806 /* Boby.h */,
 				D0C930BF1CBBC15A00BBD806 /* Boby.m */,
 				D0C930C11CBBD23300BBD806 /* Cat.h */,
@@ -164,6 +177,10 @@
 				D0DB750D1CB651A900B2D32E /* AppDelegate.m */,
 				D0DB750F1CB651A900B2D32E /* ViewController.h */,
 				D0DB75101CB651A900B2D32E /* ViewController.m */,
+				D01720491CBDFA2B0024CBCA /* RuntimeProtocol.h */,
+				D017204A1CBDFA2B0024CBCA /* RuntimeProtocol.m */,
+				D0F77A791CBD05AC003272CE /* Person.h */,
+				D0F77A7A1CBD05AC003272CE /* Person.m */,
 				D0DB75121CB651A900B2D32E /* Main.storyboard */,
 				D0DB75181CB651A900B2D32E /* Assets.xcassets */,
 				D0DB751A1CB651A900B2D32E /* LaunchScreen.storyboard */,
@@ -177,6 +194,7 @@
 		D0DB75091CB651A900B2D32E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0F77A741CBD02E7003272CE /* 123.png */,
 				D0DB750A1CB651A900B2D32E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -324,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F77A751CBD02E7003272CE /* 123.png in Resources */,
 				D0DB751C1CB651A900B2D32E /* LaunchScreen.storyboard in Resources */,
 				D0DB75191CB651A900B2D32E /* Assets.xcassets in Resources */,
 				D0DB75141CB651A900B2D32E /* Main.storyboard in Resources */,
@@ -355,6 +374,7 @@
 				D0C930C01CBBC15A00BBD806 /* Boby.m in Sources */,
 				D06F6F571CB6BF82000A3BF6 /* main.m in Sources */,
 				D0C2461F1CB932AC004C281A /* Gril+Hiee.m in Sources */,
+				D0F77A731CBCFC6B003272CE /* Car.m in Sources */,
 				D0C2461C1CB8EF9F004C281A /* BigBoby.m in Sources */,
 				D06F6F5D1CB782F2000A3BF6 /* Gril.m in Sources */,
 			);
@@ -364,7 +384,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F77A7B1CBD05AC003272CE /* Person.m in Sources */,
 				D0DB75171CB651A900B2D32E /* Runtime.xcdatamodeld in Sources */,
+				D017204B1CBDFA2B0024CBCA /* RuntimeProtocol.m in Sources */,
 				D0DB75111CB651A900B2D32E /* ViewController.m in Sources */,
 				D0DB750E1CB651A900B2D32E /* AppDelegate.m in Sources */,
 				D0DB750B1CB651A900B2D32E /* main.m in Sources */,
@@ -530,9 +552,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = Runtime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.Runtime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -542,9 +566,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = Runtime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.Runtime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

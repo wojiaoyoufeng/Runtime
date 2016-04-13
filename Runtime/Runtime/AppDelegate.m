@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    Class LSApplicationWorkspace_class = objc_getClass("LSApplicationWorkspace");
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
+    NSObject *workspace = [LSApplicationWorkspace_class performSelector:@selector(defaultWorkspace)];
+    NSLog(@"Installed apps:%@",[workspace performSelector:@selector(allApplications)]);
+#pragma clang diagnostic pop
     return YES;
 }
 
